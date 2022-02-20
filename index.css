@@ -1,5 +1,7 @@
-@import './css/rule.css';
 @import './css/media.css';
+
+@import './css/rule.css';
+@import './css/question.css';
 
 :root{
   --center-background: rgb(244, 253, 234);
@@ -8,6 +10,7 @@
   --border-color: rgb(211, 211, 211);
   --white-color: rgb(255, 255, 255);
   --rule-background: rgb(254, 255, 240);
+  --question-background: rgb(243, 240, 255);
 }
 
 body{
