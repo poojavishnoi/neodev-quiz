@@ -1,0 +1,20 @@
+.result_container .question_main_container{
+  margin-top: 3rem;
+}
+
+.result_container{
+  background-color: var(--result-background);
+  text-align: center;
+  padding: 1rem;
+}
+
+.flex_row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex_row label{
+  width: 30vw;
+}

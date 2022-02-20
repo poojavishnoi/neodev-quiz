@@ -1,5 +1,5 @@
 @import './css/media.css';
-
+@import './css/result.css';
 @import './css/rule.css';
 @import './css/question.css';
 
@@ -11,6 +11,7 @@
   --white-color: rgb(255, 255, 255);
   --rule-background: rgb(254, 255, 240);
   --question-background: rgb(243, 240, 255);
+  --result-background: rgb(240, 240, 240);
 }
 
 body{
