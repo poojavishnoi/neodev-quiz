@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Neodev Quiz Website" />
-    <meta name="author" content="Pooja Vishnoi" />
+    <title>NeoDev Quiz</title>
     <link
       rel="stylesheet"
       href="https://neodev-uii.netlify.app/doc/docstyle.css"
@@ -17,7 +16,9 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
-    <title>NeoDev Quiz</title>
+
+    <meta name="description" content="NeoDev Quiz Website" />
+    <meta name="author" content="Pooja Vishnoi" />
   </head>
   <body>
     <div class="navigation_main_container">
@@ -55,20 +56,37 @@
       </div>
     </div>
 
-    <div class="rule_container">
-      <h1>Rules</h1>
-      <div class="rule_main_container">
-          <ul>
-            <li class="none_list_style"><h2>✨ There are 10 Questions</h2></li>
-            <li class="none_list_style"><h2>✨ Each correct answer will give you 10 points.</h2></li>
-            <li class="none_list_style"><h2>✨ Each multiple choice question has only one correct answer</h2></li>
-            <li class="none_list_style"><h2>✨ To win the quiz you need to score more than 70%</h2></li>
-          </ul>
+    <div class="question_container">
+      <h1>See the line where the sky meets the sea, it calls me!</h1>
 
-          <a href="/question.html"><button class="btn quiz_btn">Start Quiz</button></a>
-        
+      <div class="question_main_container">
+        <div class="question_no_score">
+          <h4>Question No: 1/10</h4>
+          <h4>Score: 0</h4>
+        </div>
+        <div class="question_title">
+          <h2>Who does Maui need to get his magical hook back from?</h2>
+        </div>
+        <div class="question_img">
+          <img
+            src="https://www.beano.com/wp-content/uploads/legacy/49891_moana.jpg?w=977&strip=all&quality=76"
+            alt=""
+          />
+        </div>
+        <div class="question_options">
+          <input class="option" type="radio" name="option" /><label>Tama</label>
+          <input class="option" type="radio" name="option" /><label
+            >Tomata</label
+          >
+          <input class="option" type="radio" name="option" /><label
+            >Tifiiti</label
+          >
+        </div>
+
+        <a href="#"
+          ><button class="btn secondary_solid_btn next_btn">Next</button></a
+        >
       </div>
     </div>
-
   </body>
 </html>
