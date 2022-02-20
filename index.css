@@ -141,7 +141,16 @@ body{
   text-decoration: none;
 }
 
+@media only screen and (max-width: 1200px) {
+  .center_section_content h1{
+    font-size: 3rem;
+  }
+  
+  .center_section_content h2{
+    font-size: 1.5rem;
+  }  
 
+}
 
 @media only screen and (max-width: 600px) {
   
@@ -186,3 +195,5 @@ body{
   }
   
 }
+
+
