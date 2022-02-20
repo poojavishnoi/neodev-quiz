@@ -1,3 +1,4 @@
+
 :root{
   --background-color: #eeeeee;
 }
@@ -91,6 +92,7 @@
   flex-wrap: wrap;
   align-items: center;
   padding: 3rem;
+  row-gap: 1rem;
 }
 
 .item img{
@@ -122,3 +124,46 @@
   text-decoration: none;
 }
 
+@media only screen and (max-width: 600px) {
+  
+  .profile_icon{
+    display: block;
+  }
+  .fa{
+    font-size: 1rem;
+  }
+
+  .popular_container, .category_container ,.popular_item_container, .category_main_container{
+    margin: 1rem 0;
+    padding: 0.2rem;
+  }
+
+  .center_section_content h1{
+    font-size: 1rem;
+  }
+  
+  .center_section_content h2{
+    font-size: 0.7rem;
+  }
+
+  .center_section_illustration{
+    margin: 0.5rem;
+  }
+
+  .center_section_content{
+    width: 30rem;
+  }
+
+  .category_item img{
+    width: 100%;
+  }
+
+  .category_item{
+    margin-bottom: 1rem;
+  }
+
+  .footer_container img{
+    width: 1.4rem;
+  }
+  
+}
