@@ -1,4 +1,4 @@
-#NeoDev Quiz
+# NeoDev Quiz
 
 NeoDev Quiz is a quiz app related to movies.
 
