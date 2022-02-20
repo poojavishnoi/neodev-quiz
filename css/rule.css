@@ -1,0 +1,18 @@
+.rule_container{
+  background-color: var(--rule-background);
+  text-align: center;
+  min-height: 50vh;
+  padding-top: 2rem;
+}
+.rule_main_container{
+  padding: 1rem 20%;
+  text-align: start;
+}
+
+.rule_main_container li{
+  padding: 1rem;
+}
+
+.quiz_btn{
+  margin-left: 3rem;
+}

@@ -1,3 +1,5 @@
+@import './css/rule.css';
+@import './css/media.css';
 
 :root{
   --center-background: rgb(244, 253, 234);
@@ -5,6 +7,11 @@
   --popular-background: rgb(240, 248, 255);
   --border-color: rgb(211, 211, 211);
   --white-color: rgb(255, 255, 255);
+  --rule-background: rgb(254, 255, 240);
+}
+
+body{
+  min-height: 100vh;
 }
 
 .navigation_main_container{
@@ -121,6 +128,8 @@
   padding: 1rem;
   border-top: 1px solid var(--border-color);
   text-align: center;
+
+
 }
 
 .footer_container img{
@@ -131,6 +140,8 @@
 .footer_container a{
   text-decoration: none;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   
