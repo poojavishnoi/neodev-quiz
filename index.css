@@ -1,6 +1,10 @@
 
 :root{
-  --background-color: #eeeeee;
+  --center-background: rgb(244, 253, 234);
+  --category-background: rgb(255, 245, 252);
+  --popular-background: rgb(240, 248, 255);
+  --border-color: rgb(211, 211, 211);
+  --white-color: rgb(255, 255, 255);
 }
 
 .navigation_main_container{
@@ -27,7 +31,7 @@
   padding: 1rem;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(244, 253, 234);
+  background-color: var(--center-background);
 }
 
 .center_section_content{
@@ -54,9 +58,8 @@
   object-fit: cover;
 }
 
-.popular_container, .category_container{
+.container{
   text-align: center;
-  background-color: aliceblue;
   margin: 2rem 5rem;
   padding: 3rem 0;
 }
@@ -72,14 +75,19 @@
 
 .overlap_content{
   position: absolute;
-  color: white;
+  color: var(--white-color);
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
 }
 
+.popular_container{
+  background-color: var(--popular-background);
+
+}
+
 .category_container{
-  background-color: rgb(255, 245, 252);
+  background-color: var(--category-background);
 }
 
 .popular_container h1{
@@ -100,7 +108,7 @@
 }
 
 .item{
-  border: 1px solid rgb(221, 221, 221);
+  border: 1px solid var(--border-color);
   margin: 2rem;
   border-radius: 1rem 1rem 0 0;
   overflow: hidden;
@@ -111,7 +119,7 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid var(--border-color);
   text-align: center;
 }
 
