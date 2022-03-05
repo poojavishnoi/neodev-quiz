@@ -94,7 +94,10 @@ body{
 
 .popular_container{
   background-color: var(--popular-background);
+}
 
+.btn{
+  margin: 1rem;
 }
 
 .category_container{
